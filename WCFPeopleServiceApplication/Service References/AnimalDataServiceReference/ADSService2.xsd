@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/AnimalDataEntitities" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/AnimalDataEntitities" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfAnimal">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Animal" nillable="true" type="tns:Animal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfAnimal" nillable="true" type="tns:ArrayOfAnimal" />
+  <xs:complexType name="Animal">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AnimalGroup" type="tns:AnimalGroup" />
+      <xs:element minOccurs="0" name="ID" type="xs:int" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Animal" nillable="true" type="tns:Animal" />
+  <xs:simpleType name="AnimalGroup">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Mammalia" />
+      <xs:enumeration value="Arachnida" />
+      <xs:enumeration value="Amphibia" />
+      <xs:enumeration value="Insecta" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="AnimalGroup" nillable="true" type="tns:AnimalGroup" />
+</xs:schema>

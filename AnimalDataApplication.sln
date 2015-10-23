@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalDataService", "AnimalDataService\AnimalDataService.csproj", "{3F20530F-59DF-41BB-8D01-9E83E8A29BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalDataEntitities", "AnimalDataEntitities\AnimalDataEntitities.csproj", "{DC39DD10-DCF5-404A-942B-084C6E13A1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnimalData", "AnimalData\AnimalData.csproj", "{69114F75-F7F8-4D0A-9965-174673E9AFBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADS.SelfHost", "ADSSelfHost\ADS.SelfHost.csproj", "{DFBE0731-D6A0-457A-B51B-5F63CFEAB163}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADS.IISHost", "ADS.IISHost\ADS.IISHost.csproj", "{26E2BCE6-E447-4B4D-B8ED-EEE136C70D3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F20530F-59DF-41BB-8D01-9E83E8A29BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F20530F-59DF-41BB-8D01-9E83E8A29BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F20530F-59DF-41BB-8D01-9E83E8A29BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F20530F-59DF-41BB-8D01-9E83E8A29BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC39DD10-DCF5-404A-942B-084C6E13A1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC39DD10-DCF5-404A-942B-084C6E13A1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC39DD10-DCF5-404A-942B-084C6E13A1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC39DD10-DCF5-404A-942B-084C6E13A1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69114F75-F7F8-4D0A-9965-174673E9AFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69114F75-F7F8-4D0A-9965-174673E9AFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69114F75-F7F8-4D0A-9965-174673E9AFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69114F75-F7F8-4D0A-9965-174673E9AFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFBE0731-D6A0-457A-B51B-5F63CFEAB163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFBE0731-D6A0-457A-B51B-5F63CFEAB163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFBE0731-D6A0-457A-B51B-5F63CFEAB163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFBE0731-D6A0-457A-B51B-5F63CFEAB163}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E2BCE6-E447-4B4D-B8ED-EEE136C70D3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E2BCE6-E447-4B4D-B8ED-EEE136C70D3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E2BCE6-E447-4B4D-B8ED-EEE136C70D3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E2BCE6-E447-4B4D-B8ED-EEE136C70D3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mae-laurenesuralta.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AnimalDataService\\AnimalDataService.csproj
+		SccProjectName1 = AnimalDataService
+		SccLocalPath1 = AnimalDataService
+		SccProjectUniqueName2 = AnimalDataEntitities\\AnimalDataEntitities.csproj
+		SccProjectName2 = AnimalDataEntitities
+		SccLocalPath2 = AnimalDataEntitities
+		SccProjectUniqueName3 = AnimalData\\AnimalData.csproj
+		SccProjectName3 = AnimalData
+		SccLocalPath3 = AnimalData
+		SccProjectUniqueName4 = ADS.IISHost\\ADS.IISHost.csproj
+		SccProjectName4 = ADS.IISHost
+		SccLocalPath4 = ADS.IISHost
+		SccProjectUniqueName5 = ADSSelfHost\\ADS.SelfHost.csproj
+		SccProjectName5 = ADSSelfHost
+		SccLocalPath5 = ADSSelfHost
+	EndGlobalSection
+EndGlobal

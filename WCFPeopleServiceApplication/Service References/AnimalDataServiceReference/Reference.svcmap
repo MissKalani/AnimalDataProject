@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="dbf8e36b-6629-46d9-8728-092e31773203" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:56418/ADSService.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ADSService.xsd" MetadataType="Schema" ID="38066d5f-c187-4e2a-8c33-aee73f92acba" SourceId="1" SourceUrl="http://localhost:56418/ADSService.svc?xsd=xsd0" />
+    <MetadataFile FileName="ADSService1.xsd" MetadataType="Schema" ID="92e193ec-d0f1-42dc-b5aa-a3bb20db7db8" SourceId="1" SourceUrl="http://localhost:56418/ADSService.svc?xsd=xsd1" />
+    <MetadataFile FileName="AnimalDataService.wsdl" MetadataType="Wsdl" ID="d5a458bf-1698-4c49-9f22-5f7aceb573ee" SourceId="1" SourceUrl="http://localhost:56418/ADSService.svc?wsdl" />
+    <MetadataFile FileName="ADSService2.xsd" MetadataType="Schema" ID="7d6e7c70-3af7-4a9d-946c-33215560d878" SourceId="1" SourceUrl="http://localhost:56418/ADSService.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
